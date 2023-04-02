@@ -9,8 +9,6 @@ public class MainProfession {
        engineer.printProfession();
        Profession math = ProfessionFactory.getProfession("math");
        math.printProfession();
-       Profession noProfession = ProfessionFactory.getProfession("");
-       noProfession.printProfession();
        
     }
 }
